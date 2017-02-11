@@ -1,0 +1,21 @@
+{
+  "name": "Border Radio",
+  "description": "Ascolta comodamente Border Radio con l'applicazione per Google Chrome",
+  "version": "1.0",
+  "icons": {
+    "128": "chrome-128.png",
+    "48": "chrome-48.png",
+    "32": "chrome-32.png",
+    "24": "chrome-24.png"
+    },
+  "app": {
+ 
+     "permissions": [
+    "unlimited_storage",
+    "notifications"
+  ],
+    "launch": {
+      "web_url": "http://www.border-radio.it/wp-content/themes/BorderRadio/player/"
+    }
+  }
+}

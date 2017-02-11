@@ -1,0 +1,60 @@
+/* Facebook */
+.fan_box a:hover{
+  text-decoration: none;
+}
+.fan_box .full_widget{
+  height: 210px;
+  border: 0 !important;
+  background: none !important;
+  position: relative;
+}
+.fan_box .connect_top{
+  background: none !important;
+  padding: 0 !important;
+}
+.fan_box .profileimage, .fan_box .name_block{
+  display: none;
+}
+.fan_box .connect_action{
+  padding: 0 !important;
+}
+.fan_box .connections{
+  padding: 0 !important;
+  border: 0 !important;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #AAAAAA;
+}
+span.total{
+  color: #242B3A;
+  font-weight: 500;
+  font-family: 'Ubuntu', sans-serif;
+}
+.fan_box .connections .connections_grid {
+  padding-top: 10px !important;
+}
+.fan_box .connections_grid .grid_item{
+  padding: 6px !important;
+}
+.fan_box .connections_grid .grid_item .name{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: normal;
+  color: #242B3A !important;
+  padding-top: 1px !important;
+}
+.fan_box .connect_widget{
+position: absolute;
+bottom: 0;
+right: 10px;
+margin-top: 0 !important;
+margin-left: 0 !important;
+margin-right: 0 !important;
+margin-bottom: 3px !important;
+}
+.fan_box .connect_widget .connect_widget_interactive_area {
+margin: 0 !important;
+}
+.fan_box .connect_widget td.connect_widget_vertical_center {
+padding: 0 !important;
+}

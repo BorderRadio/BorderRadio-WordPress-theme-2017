@@ -1,0 +1,411 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- BEGIN html -->
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="it-IT">
+
+<!-- BEGIN head -->
+<head profile="http://gmpg.org/xfn/11">
+
+    <!-- Meta Tags -->
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+    <!-- Title -->
+	<title>Border Radio</title>
+
+	
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="http://www.border-radio.it/wp-content/themes/BorderRadio/favicon.ico" />
+	
+	<!-- Stylesheets -->
+    <link rel="stylesheet" href="http://www.border-radio.it/wp-content/themes/BorderRadio/style.css" type="text/css" media="screen" />	
+	
+	<!-- RSS, Atom & Pingbacks -->
+	<link rel="alternate" type="application/rss+xml" title="Border Radio RSS Feed" href="http://www.border-radio.it/feed/" />
+	<link rel="alternate" type="text/xml" title="RSS .92" href="http://www.border-radio.it/feed/rss/" />
+	<link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="http://www.border-radio.it/feed/atom/" />
+	<link rel="pingback" href="http://www.border-radio.it/xmlrpc.php" />
+
+	
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
+
+    <!-- Wp Head -->
+	<link rel="alternate" type="application/rss+xml" title="Border Radio &raquo; Palinsesto Feed dei commenti" href="http://www.border-radio.it/palinsesto/feed/" />
+<link rel='stylesheet' id='admin-bar-css'  href='http://www.border-radio.it/wp-includes/css/admin-bar.css?ver=20110622' type='text/css' media='all' />
+<script type='text/javascript' src='http://www.border-radio.it/wp-includes/js/l10n.js?ver=20101110'></script>
+<script type='text/javascript' src='http://www.border-radio.it/wp-includes/js/jquery/jquery.js?ver=1.6.1'></script>
+<script type='text/javascript' src='http://www.border-radio.it/wp-content/plugins/content-slide/js/coin-slider.js?ver=3.2.1'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.border-radio.it/xmlrpc.php?rsd" />
+
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.border-radio.it/wp-includes/wlwmanifest.xml" /> 
+<link rel='index' title='Border Radio' href='http://www.border-radio.it/' />
+<link rel='prev' title='Creative Commons News' href='http://www.border-radio.it/creative-commons-new/' />
+<link rel='next' title='Podcast' href='http://www.border-radio.it/podcast/' />
+
+<link rel='canonical' href='http://www.border-radio.it/palinsesto/' />
+<script type="text/javascript">
+	var $jquery = jQuery.noConflict(); 
+	$jquery(document).ready(function() 
+	{
+		$jquery('#wpcontent_slider').coinslider(
+	{ 
+	width: 440, 
+	height: 300, 
+	spw: 4, 
+	sph: 4, 
+	delay: 7000, 
+	sDelay: 10, 
+	opacity: 0.9, 
+	titleSpeed: 500, 
+	effect: 'rain', 
+	navigation: true, 
+	links : true, 
+	hoverPause: true });
+		});
+	</script>
+<style type="text/css" media="screen">
+		
+#wpcontent_slider_container
+{
+	position: relative; padding:0px;margin:0px; text-align:center; width:450px !important;
+	height:310px !important;margin: 0 0 40px;
+}
+#wpcontent_slider 
+{ overflow: hidden; position: relative; font-family:'Trebuchet MS', Helvetica, sans-serif;border:5px solid #273A4D; text-align:left;}
+#wpcontent_slider a,#wpcontent_slider a img { border: none; text-decoration: none; outline: none; }
+#wpcontent_slider h4,#wpcontent_slider h4 a 
+{margin: 0px;padding: 0px; font-family: 'Trebuchet MS', Helvetica, sans-serif;
+text-decoration:none;font-size: 16px; color:#F7A800;}
+#wpcontent_slider .cs-title {width: 100%;padding: 10px; background: #273A4D; color: #c8c8c8; font-family: 'Trebuchet MS', Helvetica, sans-serif; font-size: 11px; letter-spacing: normal;line-height: normal;}
+#wpcontent_slider_container .cs-prev,#wpcontent_slider_container .cs-next {font-weight: bold;background: #242b3a;
+font-size: 20px; font-family: "Courier New", Courier, monospace; color: #ffffff !important;
+padding: 0px 10px;}
+#wpcontent_slider_container .cs-buttons { font-size: 0px; padding: 10px 0px 10px 0px;
+margin:0px auto; float:left;clear:left;
+}
+#wpcontent_slider_container .cs-buttons a { outline:none; margin-left: 5px; height: 10px; width: 10px; float: left;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px ; border: 1px solid #999999; color: #F7A800; text-indent: -1000px;
+}
+#wpcontent_slider_container .cs-active { background-color: #F7A800; color: #FFFFFF; }
+#wpcs_link_love,#wpcs_link_love a{display:none;}
+</style>
+<!-- End Content Slider Settings -->
+
+<style type="text/css" media="print">#wpadminbar { display:none; }</style>
+<style type="text/css" media="screen">
+	html { margin-top: 28px !important; }
+	* html body { margin-top: 28px !important; }
+</style>
+	
+	<!-- Template Contact -->
+
+	
+<!-- END head -->
+</head>
+
+<body class="page page-id-266 page-template page-template-template-palinsesto-php logged-in admin-bar"> 
+
+<div id="header">
+        <div class="navigation-header">
+			<div class="menu-header">
+			    <ul id="primary-menu" class="menu"><li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-18"><a href="http://www.border-radio.it/">Home</a></li>
+<li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="http://www.border-radio.it/chi-siamo/">Chi siamo</a></li>
+<li id="menu-item-602" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-602"><a href="http://www.border-radio.it/licenze/">Licenze</a></li>
+
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://www.border-radio.it/staff/">Staff</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://www.border-radio.it/speaker/">Speaker</a></li>
+<li id="menu-item-270" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-266 current_page_item menu-item-270"><a href="http://www.border-radio.it/palinsesto/">Palinsesto</a></li>
+<li id="menu-item-67" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="http://www.border-radio.it/contatti/">Contatti</a></li>
+</ul>			</div>
+			<div class="social-icon">
+				<ul>
+					<li>Follow us:</li>
+
+					<li><a title="Border Radio on Facebook" href="http://www.facebook.com/Border.Radio.CC" target="_blank"><img src="http://www.border-radio.it/wp-content/themes/BorderRadio/images/social_icon/facebook.png" alt="Border Radio on Facebook" /></a></li>
+					<li><a title="Border Radio on Twitter" href="http://twitter.com/Border_Radio" target="_blank"><img src="http://www.border-radio.it/wp-content/themes/BorderRadio/images/social_icon/twitter.png" alt="Border Radio on Twitter" /></a></li>
+					<li><a title="Border Radio on Flickr" href="http://www.flickr.com/photos/border-radio/" target="_blank"><img src="http://www.border-radio.it/wp-content/themes/BorderRadio/images/social_icon/flickr.png" alt="Border Radio on Flickr" /></a></li>
+					<li><a title="Border Radio on Vimeo" href="http://vimeo.com/borderradio" target="_blank"><img src="http://www.border-radio.it/wp-content/themes/BorderRadio/images/social_icon/vimeo.png" alt="Border Radio on Vimeo" /></a></li>
+					<li><a title="Border Radio on YouTube" href="http://www.youtube.com/user/BorderGateRadio" target="_blank"	><img src="http://www.border-radio.it/wp-content/themes/BorderRadio/images/social_icon/youtube.png" alt="Border Radio on YouTube" /></a></li>
+					<li><a title="RSS - Border Radio" href="http://borderradio.wordpress.com/feed/" target="_blank"><img src="http://www.border-radio.it/wp-content/themes/BorderRadio/images/social_icon/rss.png" alt="RSS - Border Radio" /></a></li>
+				</ul>
+			</div>  
+		</div>
+
+</div>
+
+<div id="fix-header">
+        <div class="fix-header-container">
+			<div class="fix-header-left">
+				<div id="logo">
+				    <a href="http://www.border-radio.it" title="Border Radio">
+					    <img src="http://www.border-radio.it/wp-content/themes/BorderRadio/images/logo_border-radio.png" alt="Border Radio" width="424" height="100" border="0"/>
+					</a>
+				</div>
+
+			</div>
+			<div class="fix-header-right">
+				<div class="onair-border">
+						<div class="onair_img"><a style="background-image: url(http://border-radio.it/wp-content/themes/BorderRadio/images/br-ascoltaora.gif);"
+							onclick="window.open('http://border-radio.it/wp-content/themes/BorderRadio/player/radio.html','Border Radio - On Air','width=530,height=500,left='+(screen.availWidth/2-250)+',top='+(screen.availHeight/2-250)+'');return false;" href="http://border-radio.it/wp-content/themes/BorderRadio/player/radio.html" title="Border Radio - On Air" target="_blank"></a></div><div class="onair_text"><h3>ON AIR</h3><span class="current">*Interno Notte (rotazione musicale)*</span></div><div class="onair-palinsesto"><a href="http://border-radio.it/palinsesto/" title="Scopri l'intero palinsesto">Scopri l'intero palinsesto >></a></div>				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+
+</div>
+
+<div id="wrapper">
+        <div class="wrapper-container">	
+	<div class="TabView" id="TabView">
+
+
+<!-- ***** Tabs ************************************************************ -->
+
+			<div class="Tabs" style="width: 440px;">
+  				<a class="?id=1">Lunedi</a>
+  				<a href="?id=2">Martedi</a>
+
+  				<a href="?id=3">Mercoledi</a>
+  				<a href="?id=4">Giovedi</a>
+  				<a href="?id=5">Venerdi</a>
+  				<a href="?id=6">Sabato</a>
+  				<a href="?id=0">Domenica</a>
+			</div>
+
+
+<!-- ***** Pages *********************************************************** -->
+			<div class="Pages">
+				<div class="Page" style="display: none">
+					<div class="Pad"></div>
+    			</div>
+            </div>
+    		<div class="Pages">
+				<div class="Page" style="display: block">
+					<div class="Pad">
+						<p>00.00<span class="elemento-palinsesto"> Interno Notte (rotazione musicale)</span></p>
+						<p>16.00<span class="elemento-palinsesto"> After Mood</span></p>
+						<p>23.30<span class="elemento-palinsesto"> Interno Notte (rotazione musicale)</span></p>
+                  	</div>
+                </div>
+            </div>                
+    </div>
+    <div class="img_palinsesto">
+    	<img src="http://www.border-radio.it/wp-content/themes/BorderRadio/images/br_palinsesto.jpg" alt="Border Radio - Just copyleft"  /> 
+    </div>
+
+<script type="text/javascript" src="../distribution/tab-view.js"></script>
+<script type="text/javascript">
+tabview_initialize('TabView');
+</script>
+
+	
+		
+        <div class="clear"></div>
+		</div> 
+</div>
+
+<div id="footer">
+	<div class="content-footer">
+	    <!-- begin #sidebar --> 
+
+
+
+
+
+						<div class="widget-footer first"><h3 class="widget-title">Menu</h3><div class="menu-header-menu-container"><ul id="menu-header-menu" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-18"><a href="http://www.border-radio.it/">Home</a></li>
+
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="http://www.border-radio.it/chi-siamo/">Chi siamo</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-602"><a href="http://www.border-radio.it/licenze/">Licenze</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23"><a href="http://www.border-radio.it/staff/">Staff</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="http://www.border-radio.it/speaker/">Speaker</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-266 current_page_item menu-item-270"><a href="http://www.border-radio.it/palinsesto/">Palinsesto</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-67"><a href="http://www.border-radio.it/contatti/">Contatti</a></li>
+</ul></div></div>
+
+
+						<div class="widget-footer second"><h3 class="widget-title">About us</h3>			<div class="textwidget"><p><img src="http://border-radio.it/wp-content/uploads/2011/10/about.jpg" title="Border Radio - About us"/></p>
+
+<p>Border Radio è una radio digitale che trasmette solo contenuti rilasciati con licenze libere, con l'obiettivo  di promuovere chi crea, pratica, partecipa, promuove e sostiene le arti e la cultura copyleft. </p>
+</div>
+		</div>
+
+
+						<div class="widget-footer third"><h3 class="widget-title">La Radio</h3><div class="menu-border-radio-footer-container"><ul id="menu-border-radio-footer" class="menu"><li id="menu-item-464" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-464"><a href="http://www.border-radio.it">ON AIR</a></li>
+<li id="menu-item-460" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-266 current_page_item menu-item-460"><a href="http://www.border-radio.it/palinsesto/">Palinsesto</a></li>
+<li id="menu-item-462" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-462"><a href="http://www.border-radio.it/programmi-radio/">Programmi</a></li>
+<li id="menu-item-459" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-459"><a href="http://www.border-radio.it/podcast/">Podcast</a></li>
+
+<li id="menu-item-461" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-461"><a href="http://www.border-radio.it/creative-commons-new/">News</a></li>
+<li id="menu-item-466" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-466"><a href="http://borderradio.wordpress.com/">Blog</a></li>
+</ul></div></div>
+
+
+						<div class="widget-footer forth"><h3 class="widget-title">Border Gate</h3>			<div class="textwidget"><p><img src="http://border-radio.it/wp-content/uploads/2011/10/border-gate.png" title="Border Gate"/></p>
+<p>Border Radio è un progetto dell'associazione BorderGate, un'associazione giovanile senza fini di lucro nata nel 2009 a Torino, con lo scopo di promuovere la diffusione della cultura Copyleft, ed in particolare delle licenze Creative Commons, in tutti i campi di applicazione dell'arte, dalla musica alle immagini, dai testi ai video.</p>
+<p>All'attività sul web con la radio, si affianca un'attività sul territorio, BORDER LAND, il luogo ideale per l'organizzazione di eventi di ogni genere ma è in particolar modo pensato per accogliere, soprattutto nel periodo estivo, enti ed associazioni che sono alla ricerca del posto giusto dove svolgere in autonomia le proprie attività.</p>
+<p>Scopri di più >> <a href="http://www.border-land.it" target="_blank" tittle="Border Land">Border-Land.it</a></p>
+
+<p><a href="http://www.bordergate.it" target="_blank" title="Border Gate">BorderGate.it</a></p>
+</div>
+		</div>
+			
+<!-- end #sidebar --> 
+	    <div class="clear"></div>
+	    <div class="copyleft">I contenuti del sito sono rilasciati sotto <a href="http://creativecommons.org/licenses/by/3.0/it/" title="Licenza Creative Commons Attribuzione 3.0 Italia">Licenza Creative Commons Attribuzione 3.0 Italia</a></div>
+	    <div class="credits">Power by <a href="http://wordpress.org/" target="_blank" title="Wordpress">Wordpress</a></div>
+	</div>
+
+</div>
+
+<script type='text/javascript' src='http://www.border-radio.it/wp-includes/js/admin-bar.js?ver=20110131'></script>
+		<div id="wpadminbar">
+			<div class="quicklinks">
+				<ul>
+													
+		<li id="wp-admin-bar-my-account-with-avatar" class="menupop">
+			<a href="http://www.border-radio.it/wp-admin/profile.php"><span><img alt='' src='http://0.gravatar.com/avatar/05d67a6d6c586b81f2f3489ba719f739?s=16&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D16&amp;r=G' class='avatar avatar-16 photo' height='16' width='16' />BorderRadio</span></a>
+
+						<ul>
+
+											
+		<li id="wp-admin-bar-edit-profile" class="">
+			<a href="http://www.border-radio.it/wp-admin/profile.php">Modificare il profilo</a>
+
+			
+					</li>											
+		<li id="wp-admin-bar-logout" class="">
+			<a href="http://www.border-radio.it/wp-login.php?action=logout&#038;_wpnonce=27f9e3d62d">Logout</a>
+
+			
+					</li>							</ul>
+			
+					</li>													
+		<li id="wp-admin-bar-dashboard" class="">
+
+			<a href="http://www.border-radio.it/wp-admin/">Bacheca</a>
+
+			
+					</li>													
+		<li id="wp-admin-bar-edit" class="">
+			<a href="http://www.border-radio.it/wp-admin/post.php?post=266&#038;action=edit">Modifica pagina</a>
+
+			
+					</li>													
+		<li id="wp-admin-bar-new-content" class="menupop">
+			<a href="http://www.border-radio.it/wp-admin/post-new.php?post_type=post"><span>Aggiungi nuovo</span></a>
+
+						<ul>
+											
+		<li id="wp-admin-bar-new-post" class="">
+			<a href="http://www.border-radio.it/wp-admin/post-new.php?post_type=post">Nuovo articolo</a>
+
+			
+					</li>											
+		<li id="wp-admin-bar-new-page" class="">
+			<a href="http://www.border-radio.it/wp-admin/post-new.php?post_type=page">Nuova pagina</a>
+
+			
+					</li>											
+		<li id="wp-admin-bar-new-programmi" class="">
+
+			<a href="http://www.border-radio.it/wp-admin/post-new.php?post_type=programmi">Programma</a>
+
+			
+					</li>											
+		<li id="wp-admin-bar-new-podcast" class="">
+			<a href="http://www.border-radio.it/wp-admin/post-new.php?post_type=podcast">Podcast</a>
+
+			
+					</li>											
+		<li id="wp-admin-bar-new-staff" class="">
+			<a href="http://www.border-radio.it/wp-admin/post-new.php?post_type=staff">Staff</a>
+
+			
+					</li>											
+		<li id="wp-admin-bar-new-speaker" class="">
+			<a href="http://www.border-radio.it/wp-admin/post-new.php?post_type=speaker">Speaker</a>
+
+			
+					</li>											
+		<li id="wp-admin-bar-new-news" class="">
+			<a href="http://www.border-radio.it/wp-admin/post-new.php?post_type=news">News</a>
+
+			
+					</li>											
+		<li id="wp-admin-bar-new-multimedia" class="">
+
+			<a href="http://www.border-radio.it/wp-admin/post-new.php?post_type=multimedia">Media</a>
+
+			
+					</li>											
+		<li id="wp-admin-bar-new-media" class="">
+			<a href="http://www.border-radio.it/wp-admin/media-new.php">Nuovo media</a>
+
+			
+					</li>											
+		<li id="wp-admin-bar-new-link" class="">
+			<a href="http://www.border-radio.it/wp-admin/link-add.php">Nuovo link</a>
+
+			
+					</li>											
+		<li id="wp-admin-bar-new-user" class="">
+			<a href="http://www.border-radio.it/wp-admin/user-new.php">Nuovo utente</a>
+
+			
+					</li>											
+		<li id="wp-admin-bar-new-theme" class="">
+			<a href="http://www.border-radio.it/wp-admin/theme-install.php">Aggiungi tema</a>
+
+			
+					</li>											
+		<li id="wp-admin-bar-new-plugin" class="">
+
+			<a href="http://www.border-radio.it/wp-admin/plugin-install.php">Nuovo plugin</a>
+
+			
+					</li>							</ul>
+			
+					</li>													
+		<li id="wp-admin-bar-comments" class="">
+			<a href="http://www.border-radio.it/wp-admin/edit-comments.php">Commenti </a>
+
+			
+					</li>													
+		<li id="wp-admin-bar-appearance" class="menupop">
+
+			<a href="http://www.border-radio.it/wp-admin/themes.php"><span>Aspetto</span></a>
+
+						<ul>
+											
+		<li id="wp-admin-bar-themes" class="">
+			<a href="http://www.border-radio.it/wp-admin/themes.php">Temi</a>
+
+			
+					</li>											
+		<li id="wp-admin-bar-widgets" class="">
+			<a href="http://www.border-radio.it/wp-admin/widgets.php">Widget</a>
+
+			
+					</li>											
+		<li id="wp-admin-bar-menus" class="">
+			<a href="http://www.border-radio.it/wp-admin/nav-menus.php">Menu</a>
+
+			
+					</li>							</ul>
+			
+					</li>									</ul>
+			</div>
+
+			<div id="adminbarsearch-wrap">
+				<form action="http://www.border-radio.it" method="get" id="adminbarsearch">
+					<input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" />
+					<input type="submit" class="adminbar-button" value="Cerca"/>
+				</form>
+			</div>
+		</div>
+
+		</body>
+
+</html>
+	
