@@ -1,0 +1,25 @@
+/**
+ * Materialize CSS patch (Saas)
+ *
+ * https://en.wikipedia.org/wiki/Sass_%28stylesheet_language%29
+ */
+
+/*
+ * WordPress wp_nav_menu() Current-Page Menu Items
+ * https://developer.wordpress.org/reference/functions/wp_nav_menu/#current-page-menu-items
+ */
+
+.current-menu-item {
+	/*
+	 * Materialize CSS navbar li.active
+	 * http://materializecss.com/navbar.html
+	 */
+	@extend li.active;
+}
+
+.menu-item {
+	/*
+	 * Not white!
+	 */
+	@extend .black-text;
+}
