@@ -19,10 +19,6 @@ $license_name = 'Creative Commons Attribuzione 3.0 Italia';
 $license_url = 'https://creativecommons.org/licenses/by/3.0/it/';
 
 ?>
-	</div>
-	<!-- end .row started in header.php -->
-</div>
-<!-- end .container started in header.php -->
 
 <footer class="page-footer red darken-4">
 	<div class="row">

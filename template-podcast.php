@@ -18,9 +18,9 @@
 get_header();
 
 ?>
-	<div class="col s12">
-		<h1>Podcast</h1>
-	</div>
+<div class="container">
+
+	<h1>Podcast</h1>
 
 	<?php if( have_posts() ) : ?>
 		<?php
@@ -36,27 +36,29 @@ get_header();
 		$loop = new WP_Query( $args );
 		?>
 
+		<div class="row">
 		<?php while( $loop->have_posts() ): $loop->the_post(); ?>
-			<div class="col s12 m6">
+			<div class="col s12 m6 l4">
 				<div class="card-panel">
-					<a href="<?php the_permalink() ?>"><?php the_title() ?></a>
+					<h3 class="flow-text"><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h3>
+					<?php the_date() ?>
 					<?php content(25, __('[...]') ) ?>
-					<a class="<?php echo BTN_DARK ?> hoverable" href="<?php the_permalink() ?>" title="<?php the_title_attribute() ?>">Ascolta la puntata</a>
+					<a class="<?php echo BTN_DARK ?> hoverable" href="<?php the_permalink() ?>" title="<?php the_title_attribute() ?>">Ascolta</a>
 				</div>
 			</div>
-		<?php endwhile; ?>
-
-		<div class="col s12">
-			<?php kriesi_pagination($loop->max_num_pages) ?>
+		<?php endwhile ?>
 		</div>
+
+		<?php kriesi_pagination($loop->max_num_pages) ?>
 
 	<?php else: ?>
 
 		<h2 class="center">Not Found</h2>
 		<p class="center">Sorry, but you are looking for something that isn't here.</p>
-		<?php include (TEMPLATEPATH . "/searchform.php") ?>
+		<?php include TEMPLATEPATH . "/searchform.php" ?>
 
 	<?php endif ?>
 
-	</div>
+</div>
+
 <?php get_footer() ?>

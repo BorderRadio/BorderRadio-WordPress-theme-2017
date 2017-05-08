@@ -1,4 +1,20 @@
 <?php
+# Border Radio 2017 MaterializeCSS WordPress theme
+# Copyright (C) 2017 Valerio Bozzolan
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
 // border-calendar plugin and template-palinsesto is using this const
 defined('UTC_OFFSET')
 	or define('UTC_OFFSET', get_option('gmt_offset') );
@@ -13,8 +29,8 @@ define('BTN_BASE', 'btn waves-effect');
 define('BTN_DARK', BTN_BASE . ' waves-light ' . DARK_BG);
 define('BTN_LIGH', BTN_BASE . ' waves-red white black-text');
 
-function mdi($icon) {
-	printf('<i class="material-icons">%s</i>', $icon);
+function mdi($icon, $extra = '') {
+	printf('<i class="material-icons<?php if( $extra ) echo " $extra"; ?>">%s</i>', $icon);
 }
 
 // Materialize CSS - MIT License
@@ -32,19 +48,19 @@ if( ! class_exists('Backend') ) {
 	Backend::init();
 }
 
-require ('functions/custom-functions.php');
-require ('functions/custom-pagination.php');
+require 'functions/custom-functions.php';
+require 'functions/custom-pagination.php';
 //require ('functions/custom-taxonomies.php');
 
 // Giampaolo || 13.10.2011 || Nuovo metodo registrazione widget
-include("widgets/Programmi.php");
-include("widgets/PodcastAll.php");
-include("widgets/PodcastSingle.php");
-include("widgets/FacebookLike.php");
-include("widgets/BorderRadioLike.php");
-include("widgets/RssProgram.php");
-include("widgets/RssProgramsAll.php");
-include("widgets/News.php");
+include "widgets/Programmi.php";
+include "widgets/PodcastAll.php";
+include "widgets/PodcastSingle.php";
+include "widgets/FacebookLike.php";
+include "widgets/BorderRadioLike.php";
+include "widgets/RssProgram.php";
+include "widgets/RssProgramsAll.php";
+include "widgets/News.php";
 
 function register_border_widget($id, $title) {
 	static $SIDEBAR_CLASS = '';

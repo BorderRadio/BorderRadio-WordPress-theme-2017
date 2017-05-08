@@ -35,7 +35,7 @@ function kriesi_pagination($pages = '', $range = 2) {
 		return;
 	}
 
-	echo '<div class="pagination">';
+	echo '<div class="pagination section">';
 
 	if($paged > 2 && $paged > $range+1 && $showitems < $pages) {
 		printf(
@@ -64,13 +64,12 @@ function kriesi_pagination($pages = '', $range = 2) {
 
 		if( $paged == $i ) {
 			printf(
-				'<span class="current hide-on-small-only %s">%s</span>',
-				BTN_DARK,
+				'<span class="hide-on-small-only btn waves-effect grey">%s</span>',
 				$i
 			);
 		} else {
 			printf(
-				'<a class="%s inactive hide-on-small-only" href="%s">%s</a>',
+				'<a class="hide-on-small-only %s" href="%s">%s</a>',
 				BTN_DARK,
 				get_pagenum_link($i),
 				$i
@@ -94,7 +93,6 @@ function kriesi_pagination($pages = '', $range = 2) {
 			"Ultima",
 			'>>'
 		);
-
-		echo "</div>\n";
 	}
+	echo "</div>\n";
 }
