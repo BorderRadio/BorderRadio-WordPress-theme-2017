@@ -18,20 +18,6 @@
 get_header();
 ?>
 	<div class="row">
-		<div class="col s12 m6 l4">
-			<?php if( have_posts() ): ?>
-				<?php while( have_posts() ): the_post(); ?>
-					<div class="card-panel">
-						<h1 class="post-title"><?php the_title() ?></h1>
-						<?php the_content() ?>
-					</div>
-				<?php endwhile ?>
-			<?php else : ?>
-				<h2 class="center">Not Found</h2>
-				<p class="center">Sorry, but you are looking for something that isn't here.</p>
-	        	<?php endif ?>
-		</div>
-
 		<div class="col s12 m6 l8">
 			<div class="card-panel">
 				<p class="flow-text">Border Radio è una comunità aperta a tutti coloro che desiderano contribuire attivamente alla promozione e alla diffusione del contenuto libero e della cultura copyleft.</p>
@@ -104,6 +90,20 @@ get_header();
 			?>
 		</div>
 		<!-- end .col -->
+
+		<div class="col s12 m6 l4">
+			<?php if( have_posts() ): ?>
+				<?php while( have_posts() ): the_post(); ?>
+					<div class="card-panel">
+						<h1 class="post-title"><?php the_title() ?></h1>
+						<?php the_content() ?>
+					</div>
+				<?php endwhile ?>
+			<?php else : ?>
+				<h2 class="center">Not Found</h2>
+				<p class="center">Sorry, but you are looking for something that isn't here.</p>
+	        	<?php endif ?>
+		</div>
 	</div>
 	<!-- end .row -->
 <?php
