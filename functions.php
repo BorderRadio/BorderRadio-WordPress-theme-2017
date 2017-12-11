@@ -1,6 +1,7 @@
 <?php
 # Border Radio 2017 MaterializeCSS WordPress theme
-# Copyright (C) 2017 Valerio Bozzolan
+# Copyright (C) 2011 Border Radio, Gianpaolo
+# Copyright (C) 2017 Border Radio, Gianpaolo, Valerio Bozzolan
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -9,11 +10,14 @@
 #
 # This program is distributed in the hope that it will be useful,
 # but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 # GNU General Public License for more details.
 #
 # You should have received a copy of the GNU General Public License
-# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+defined('RADIO_STREAM_PAGE')
+	or define('RADIO_STREAM_PAGE', 'http://stream.border-radio.it/player/radio.html');
 
 // border-calendar plugin and template-palinsesto is using this const
 defined('UTC_OFFSET')
@@ -21,6 +25,9 @@ defined('UTC_OFFSET')
 
 defined('MATERIALIZE_URL')
 	or define('MATERIALIZE_URL', get_stylesheet_directory_uri() . '/static/materialize');
+
+defined('MATERIAL_ICONS')
+	or define('MATERIAL_ICONS', get_stylesheet_directory_uri() . '/static/material-icons');
 
 define('DARK_BG', 'red darken-3');
 
@@ -36,11 +43,37 @@ function mdi($icon, $extra = '') {
 // Materialize CSS - MIT License
 // http://materializecss.com
 wp_register_style( 'materialize', MATERIALIZE_URL . '/css/materialize.min.css');
-wp_register_script('materialize', MATERIALIZE_URL . '/js/materialize.min.js');
+wp_register_script('materialize', MATERIALIZE_URL . '/js/materialize.min.js', array('jquery') );
+
+// To have a .row with .cols at the same height
+wp_register_script('materialize.same-height',
+	get_stylesheet_directory_uri() . '/static/same-height.js',
+	array('materialize')
+);
 
 // Materialize CSS patc
 wp_register_style('materialize-patch',
-	get_stylesheet_directory_uri() . '/static/materialize-patch/materialize.css'
+	get_stylesheet_directory_uri() . '/static/materialize-patch/materialize.css',
+	array('materialize')
+);
+
+// Showinfo (same as airtime-showinfo?)
+wp_register_script('border-showinfo',
+	get_stylesheet_directory_uri() . '/static/border-showinfo.js',
+	array('jquery')
+);
+
+wp_register_script('border-player',
+	get_stylesheet_directory_uri() . '/static/border-player.js',
+	array('border-showinfo')
+);
+
+wp_register_script('airtime-showinfo',
+	get_stylesheet_directory_uri() . '/airtime-widgets/js/jquery.showinfo.js'
+);
+
+wp_register_style('airtime',
+	get_stylesheet_directory_uri() . '/airtime-widgets/css/airtime-widgets.css'
 );
 
 if( ! class_exists('Backend') ) {
@@ -53,14 +86,15 @@ require 'functions/custom-pagination.php';
 //require ('functions/custom-taxonomies.php');
 
 // Giampaolo || 13.10.2011 || Nuovo metodo registrazione widget
-include "widgets/Programmi.php";
-include "widgets/PodcastAll.php";
-include "widgets/PodcastSingle.php";
-include "widgets/FacebookLike.php";
-include "widgets/BorderRadioLike.php";
-include "widgets/RssProgram.php";
-include "widgets/RssProgramsAll.php";
-include "widgets/News.php";
+require 'widgets/Programmi.php';
+require 'widgets/PodcastAll.php';
+require 'widgets/PodcastSingle.php';
+require 'widgets/FacebookLike.php';
+require 'widgets/BorderRadioLike.php';
+require 'widgets/RssProgram.php';
+require 'widgets/RssProgramsAll.php';
+require 'widgets/News.php';
+require 'widgets/BorderRadioPlayer.php';
 
 function register_border_widget($id, $title) {
 	static $SIDEBAR_CLASS = '';
